@@ -35,6 +35,19 @@ Read more about the SDK configurations [here](../../README.md#authprovider).
 }
 ```
 
+**Full config dev WSO2 Identity Server:**
+
+```json
+{
+    "clientID": "<ADD_CLIENT_ID_HERE>",
+    "baseUrl": "https://localhost:9443",
+    "signInRedirectURL": "https://localhost:3000",
+    "signOutRedirectURL": "https://localhost:3000",
+    "scope": ["profile"]
+}
+```
+
+
 ### Run the Application
 
 ```bash
